@@ -6,4 +6,4 @@
 ### Versionsverwaltung / GIT
 ### Mark Down
 ### Systemsicherheit
-## Lernschritte
+## Lernschritte:

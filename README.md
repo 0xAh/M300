@@ -1,5 +1,5 @@
 # M300 Dokumentation
-Bessere Ansicht auf meiner [Github Page] (https://0xah.github.io/M300/)
+Bessere Ansicht auf meiner [Github Page](https://0xah.github.io/M300/)
 ## Lernthemen
 ### Linux
 ### Virtualisierung

@@ -3,6 +3,8 @@
 ### Linux
 ### Virtualisierung
 ### Vagrant
+Vagrant init: eigenes Vagrant file initialiseren
+
 Vagrant up: startet VM's aus Vagrantfile
 
 Vagrant halt: stopt VM's

@@ -1,4 +1,5 @@
 # M300 Dokumentation
+Bessere Ansicht auf meiner [Github Page] (https://0xah.github.io/M300/)
 ## Lernthemen
 ### Linux
 ### Virtualisierung
@@ -25,4 +26,4 @@ git init : Repo initialisieren
 ### Mark Down
 ### Systemsicherheit
 ## Lernschritte:
-Ich habe etwas Vagrant gelernt. Finde mich aber noch nicht so damit zurecht.
+Ich habe etwas Vagrant gelernt. Finde mich aber noch nicht so damit zurecht.	

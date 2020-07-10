@@ -23,6 +23,10 @@ git clone : Github Repo herunterladen
 
 git init : Repo initialisieren
 
+## Lernschritte
+Ich interessiere mich für Ansible und versuche meine Vagrant VM's damit zu provisionieren und eine Loadbalancer Webserver Umgebung zu starten. Allerdings sind im Internet dafür keine wirklich brauchbaren Beispiele. Darum versuche ich dies einfach selber aus den verschiedenen Versionen zusammenzukonfigurieren.
+Am schwierigsten finde ich die Loadbalancer im Ansible vollständig zu deklarieren.
+
 ### Docker
 docker run
 * Startet ein Container, das Startverhalten des Containers kann angepasst werden wie was für ein Kommando ausgeführt oder welches Verzeichnis vom Host geshared werden soll.
@@ -48,13 +52,8 @@ docker rmi {Name}
 docker start/stop/kill
 * Startet, stoppt oder erzwingt einen stop auf einen Container.
 
-
-
-## Lernschritte
-Ich interessiere mich für Ansible und versuche meine Vagrant VM's damit zu provisionieren und eine Loadbalancer Webserver Umgebung zu starten. Allerdings sind im Internet dafür keine wirklich brauchbaren Beispiele. Darum versuche ich dies einfach selber aus den verschiedenen Versionen zusammenzukonfigurieren.
-Am schwierigsten finde ich die Loadbalancer im Ansible vollständig zu deklarieren.
-
 ## Dockerumgebung
+Die Ganze Dockerumgebung wird in einem Dockercomposefile hinterlegt. Dazu kommen noch Konfigurationsfiles für die einzelnen Container.
 ### K3
 Ich möchte mehrere Container bereitstellen:
 MariaDB Datenbank
@@ -62,4 +61,4 @@ Nextcloud
 
 Die Datenbank dient als Backend für den Nextcloud Share. Beide erhalten ein vom Host bereitgestelltes Presistant Storage.
 ### K4
-Für die Überwachung der Container richte ich Prometheus und CAdvisor ein. Damit könne die Lasten der einzelnen Container auf einem Webfrontend eingesehen werden.
+Für die Überwachung der Container richte ich Prometheus und CAdvisor ein. Damit könne die Lasten der einzelnen Container auf einem Webfrontend eingesehen werden und mit Graphen dargestellt werden.
